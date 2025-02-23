@@ -1,8 +1,10 @@
+/* Background */
 body {
     background: url('images/cinemabg.jpeg') no-repeat center center fixed;
     background-size: cover;
 }
 
+/* Kotak login */
 .login-container {
     display: flex;
     justify-content: center;
@@ -11,13 +13,35 @@ body {
 }
 
 .login-box {
-    background: rgba(0, 0, 0, 0.8); /* Efek transparan */
+    background: rgba(0, 0, 0, 0.8);
     padding: 30px;
     border-radius: 10px;
     width: 350px;
-    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+    color: white;
 }
 
+/* Logo */
 .logo {
     width: 120px;
+}
+
+/* Input field */
+.form-control {
+    background: #333;
+    color: white;
+    border: none;
+}
+
+.form-control::placeholder {
+    color: #bbb;
+}
+
+/* Tombol */
+.btn-primary {
+    background: #555;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: #777;
 }
