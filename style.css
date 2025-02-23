@@ -1,28 +1,32 @@
-/* Background */
-body {
+/* Background fullscreen */
+.background {
     background: url('images/CinemaBg.jpeg') no-repeat center center fixed;
     background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-/* Kotak login */
+/* Box login */
 .login-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    width: 100%;
 }
 
 .login-box {
     background: rgba(0, 0, 0, 0.8);
-    padding: 30px;
+    padding: 40px;
     border-radius: 10px;
-    width: 350px;
+    width: 400px;
     color: white;
 }
 
 /* Logo */
 .logo {
-    width: 120px;
+    width: 150px;
 }
 
 /* Input field */
@@ -30,6 +34,7 @@ body {
     background: #333;
     color: white;
     border: none;
+    padding: 10px;
 }
 
 .form-control::placeholder {
@@ -37,11 +42,13 @@ body {
 }
 
 /* Tombol */
-.btn-primary {
-    background: #555;
+.btn-danger {
+    background: #e50914;
     border: none;
+    padding: 10px;
+    font-size: 18px;
 }
 
-.btn-primary:hover {
-    background: #777;
+.btn-danger:hover {
+    background: #b20710;
 }
